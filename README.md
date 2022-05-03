@@ -1,3 +1,5 @@
+<h1>ВНИМАНИЕ! Это форк https://github.com/Nikaple/nest-typed-config@2.4.1 с целью подмены уязвимой зависимости class-validator</h1>
+
 <h1 align="center">Nest-Typed-Config</h1>
 
 <h3 align="center">Never write strings to read config again.</h3>
