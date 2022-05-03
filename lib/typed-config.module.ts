@@ -5,7 +5,7 @@ import {
   validateSync,
   ValidationError,
   ValidatorOptions,
-} from 'class-validator';
+} from '@nestjs/class-validator';
 import merge from 'lodash.merge';
 import {
   TypedConfigModuleAsyncOptions,
@@ -165,7 +165,7 @@ export class TypedConfigModule {
   }
 
   /**
-   * Transforms validation error object returned by class-validator to more
+   * Transforms validation error object returned by @nestjs/class-validator to more
    * readable error messages.
    */
   private static formatValidationError(errors: ValidationError[]) {

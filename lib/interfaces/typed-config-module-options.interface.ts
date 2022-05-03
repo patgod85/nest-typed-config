@@ -1,5 +1,5 @@
 import { ClassConstructor } from 'class-transformer';
-import { ValidatorOptions } from 'class-validator';
+import { ValidatorOptions } from '@nestjs/class-validator';
 
 export type ConfigLoader = () => Record<string, any>;
 export type AsyncConfigLoader = () => Promise<Record<string, any>>;
@@ -41,7 +41,7 @@ export interface TypedConfigModuleOptions {
 
   /**
    * Options passed to validator during validation.
-   * @see https://github.com/typestack/class-validator
+   * @see https://github.com/typestack/@nestjs/class-validator
    */
   validationOptions?: ValidatorOptions;
 }

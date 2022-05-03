@@ -69,7 +69,7 @@ Let's define the configuration model first. It can be nested at arbitrary depth.
 
 ```ts
 // config.ts
-import { Allow } from 'class-validator';
+import { Allow } from '@nestjs/class-validator';
 
 // validator is omitted for simplicity
 export class TableConfig {
@@ -648,7 +648,7 @@ Suppose we need to inject routing information from the configuration, then we ca
 ```ts
 // config.ts
 import { Type } from 'class-transformer';
-import { IsDefined, IsNumber, IsString } from 'class-validator';
+import { IsDefined, IsNumber, IsString } from '@nestjs/class-validator';
 
 export class RouteConfig {
   @IsString()

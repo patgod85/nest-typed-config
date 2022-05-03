@@ -5,7 +5,7 @@ import {
   IsInt,
   IsString,
   ValidateNested,
-} from 'class-validator';
+} from '@nestjs/class-validator';
 
 export class TableConfig {
   @IsString()

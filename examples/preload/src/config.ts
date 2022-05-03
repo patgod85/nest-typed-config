@@ -1,5 +1,5 @@
 import { Type } from 'class-transformer';
-import { IsDefined, IsNumber, IsString } from 'class-validator';
+import { IsDefined, IsNumber, IsString } from '@nestjs/class-validator';
 
 export class RouteConfig {
   @IsString()

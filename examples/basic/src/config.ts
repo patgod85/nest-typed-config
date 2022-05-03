@@ -1,5 +1,5 @@
 import { Type } from 'class-transformer';
-import { IsDefined, IsString, ValidateNested } from 'class-validator';
+import { IsDefined, IsString, ValidateNested } from '@nestjs/class-validator';
 
 // First, define the config model, validator is omitted for simplicity
 export class TableConfig {
